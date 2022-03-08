@@ -8,16 +8,37 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hallo whaaaaaaaaaaaaaaaaaaaaaaaa
+          Link list
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ul>
+          <li>
+            <a
+              className="App-link"
+              href="https://google.com"
+              target="_blank"
+              rel="noopener noreferrer">
+              Google
+            </a>
+          </li>
+          <li>
+            <a
+              className="App-link"
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer">
+              Youtube
+            </a>
+          </li>
+          <li>
+            <a
+              className="App-link"
+              href="https://twitch.com"
+              target="_blank"
+              rel="noopener noreferrer">
+              Twitch
+            </a>
+          </li>
+        </ul>
       </header>
     </div>
   );
